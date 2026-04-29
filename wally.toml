@@ -1,0 +1,11 @@
+[package]
+name = "anonymous197a/soundpooler"
+description = "Lightweight solution to repeat audio playback that has support for acoustic simulation."
+version = "0.1.0"
+license = "Apache-2.0"
+authors = ["anonymous197a"]
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+exlude = ["selene.toml"]
+
+[dev-dependencies]

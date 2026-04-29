@@ -1,0 +1,9 @@
+{
+  "name": "soundpooler",
+  "tree": {
+    "$path": "src",
+    "DevPackages": {
+      "$path": "DevPackages"
+    }
+  }
+}
