@@ -1,5 +1,13 @@
 # soundpooler
 
+Why use this module?
+Just having one sound instance makes it impossible to play the sound instance rapidly without stopping previously played sounds
+Default sound instances also do not have support for acoustic simulation
+AudioEmitters and AudioPlayers fix this by allowing for support for acoustic simulation (be sure to have AcousticSimulation enabled in SoundService)
+However, AudioEmitters and AudioPlayers require a Wire instance to connect them
+This can get very messy with a lot of instances and now you have to multiply it if you want to play the sound rapidly
+This module provides a lightweight way to create a "pool" for a group of sounds and can be played with :Play() and cleanuped with :Destroy()
+
 Wally: https://wally.run/package/anonymous197a/soundpooler?version=0.1.0
 
 # Installation

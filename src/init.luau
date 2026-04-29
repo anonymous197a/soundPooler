@@ -5,7 +5,7 @@ Default sound instances also do not have support for acoustic simulation
 AudioEmitters and AudioPlayers fix this by allowing for support for acoustic simulation (be sure to have AcousticSimulation enabled in SoundService)
 However, AudioEmitters and AudioPlayers require a Wire instance to connect them
 This can get very messy with a lot of instances and now you have to multiply it if you want to play the sound rapidly
-This module provides a lightweight way to create a "pool" for a group of sounds and can be played with :Play() and cleanuped with :Destroy()
+This module provides a lightweight way to create a "pool" for a group of sounds and can be played with :Play() and cleaned up with :Destroy()
 ]]
 
 local SoundPool = {}
